@@ -52,9 +52,9 @@ def temp_conversion():
             print("Your numbers are crazy. Please try again.")
         else:
             print(f"The converted temperature is {celcius_conversion:.2f}C")
+            break
         finally:
             print("Thank you for using the Weather Forecast app!")
-            break
 temp_conversion()
 
 
